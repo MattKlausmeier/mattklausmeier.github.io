@@ -1,0 +1,209 @@
+html {
+  height: 100%;
+}
+
+body {
+  color: #222;
+  display: flex;
+  flex-direction: column;
+  font-family: sans-serif;
+  line-height: 1.5;
+  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 768px;
+  min-height: 100%;
+}
+
+a {
+  color: #00e;
+  text-decoration: none;
+}
+
+header {
+  color: white;
+  margin-top: 1rem;
+  padding: 16px;
+  text-align: center;
+}
+
+header a {
+  color: inherit;
+  text-decoration: none;
+}
+
+header a:visited {
+  color: inherit;
+}
+
+header a:hover {
+  color: inherit;
+  text-decoration: none;
+}
+
+header a:active {
+  color: inherit;
+}
+
+header a:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 2px;
+}
+
+header>h1 {
+  margin: 0;
+}
+
+header>h3 {
+  margin: 0;
+}
+
+main {
+  background-color: white;
+  border-radius: 8px 8px 0px 0px;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  padding: 0px 16px;
+}
+
+main>h3 {
+  margin: 0;
+}
+
+footer {
+  background-color: white;
+  margin-bottom: 1rem;
+  border-radius: 0px 0px 8px 8px;
+  padding: 0px 16px;
+}
+
+#alert {
+  background-color: #ffeb3b;
+  color: black;
+  display: none;
+  font-weight: bold;
+  padding: 12px;
+  text-align: center;
+}
+
+#bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url("/images/background.jpg") center / cover no-repeat;
+  z-index: -1;
+}
+
+#consider {
+  margin: 0;
+}
+
+#contact {
+  text-align: center;
+}
+
+#contact>p {
+  display: inline;
+}
+
+#content>p {
+  margin: 0px 0px 16px 0px;
+}
+
+#content>p:last-of-type {
+  margin-bottom: 0;
+}
+
+#date {
+  color: cornflowerblue;
+  font-style: italic;
+  font-weight: bold;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+#footerrow {
+  display: flex;
+  justify-content: space-between;
+}
+
+#maintop {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+#newer {
+  padding: 1rem 0;
+  text-align: end;
+  width: 50%;
+}
+
+#older {
+  padding: 1rem 0;
+  width: 50%;
+}
+
+#permalink {
+  padding: 8px;
+  text-align: center;
+}
+
+#post-nav {
+  display: flex;
+  gap: 16px;
+}
+
+#sitetitle {
+  font-family: "Ultra", serif;
+  font-size: 3.0rem;
+  font-style: normal;
+  font-weight: 400;
+}
+
+#support {
+  background-color: cornsilk;
+  border: 2px solid orange;
+  border-radius: 8px;
+  display: none;
+  padding: 8px;
+  text-align: center;
+}
+
+@media (max-width: 767px) {
+  #sitetitle {
+    font-size: 1.5rem;
+  }
+}
+
+#tags>a {
+  color: inherit;
+  font-size: small;
+  font-weight: bolder;
+}
+
+#title {
+  color: orange;
+  font-size: x-large;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+#titlerow {
+  display: flex;
+  justify-content: space-between;
+}
+
+#verse {
+  font-style: italic;
+  margin: 0px 32px;
+}
+
+#verse>p {
+  text-align: end;
+}
