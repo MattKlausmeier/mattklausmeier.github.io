@@ -150,6 +150,7 @@ footer {
 }
 
 #permalink {
+  font-weight: bold;
   padding: 8px;
   text-align: center;
 }
