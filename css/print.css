@@ -1,0 +1,32 @@
+@media print {
+
+    #bg,
+    #permalink,
+    #post-nav,
+    #footerrow p:nth-of-type(1) a,
+    #footerrow p:nth-of-type(2),
+    #footerrow p:nth-of-type(3) {
+        display: none !important;
+    }
+
+    header {
+        display: none;
+    }
+
+    #title {
+        color: dimgray;
+    }
+
+    #date {
+        color: black;
+    }
+
+    main {
+        orphans: 1;
+        widows: 1;
+    }
+
+    #footerrow {
+        justify-content: center;
+    }
+}
